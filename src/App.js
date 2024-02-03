@@ -13,7 +13,7 @@ const App = () => {
     <div className="w-screen h-screen flex flex-col">
       <Header />
       <Routes>
-        <Route index element = {<Home />} />
+        <Route path='/' element = {<Home />} />
         <Route path='projects' element = {<Projects />} />
         <Route path='contacts' element = {<Contacts />} />
       </Routes>
